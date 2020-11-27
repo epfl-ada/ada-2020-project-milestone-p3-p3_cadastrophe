@@ -2,17 +2,20 @@
 
     Civil War: how does this disastrous event affect a country and its neighbours? An analysis of the impact on the international military material trade and other economical and social factors.
 
-1. *Abstract*
+2. *Abstract*
 
     A civil war is typically caused by a combination of complex factors and its effects are usually long-lasting. But does it only impact its country of origin? In this project, we would like to analyze the particular economic and societal dynamics in a country stricken by civil war, and in its neighbors. More specifically, we aim to determine if and how a country might react to an impending threat of civil war, for instance by importing military materials. Furthermore, do neighboring countries see such events as a threat and feel the need to protect themselves as well? To do so, we will use several SIPRI datasets, on international weapon trade. Additionally, we will also analyze the recovery time of the countries affected directly or indirectly by these conflicts for several economic and social factors, such as education or GDP per capita as those features might not be affected similarly. This study could highlight sectors particularly sensitive to civil war onset, which could constitute high priority targets for NGOs.
 
-1. *Research Questions*
+3. *Research Questions*
+
 *   What is the impact of the civil war onset on the economic and social metrics of a country and their neighbouring countries?
 *   What about the arm trade surrounding these war onsets?
 *   If the weapon trade presents interessant trends, add it to prediction models and see if the accuracy is improved.
 *   Bonus (if time allows)
     *   What are the effects of the civil war on a regional level: are there civil wars “hot spots”? Are their effects cumulative if a country shares borders with several countries experiencing civil war simultaneously ? Are some countries able to “permeabilize” their border and minimize the impact of the nearby ongoing conflicts?
-1. *Proposed dataset*
+    
+4. *Proposed dataset*
+
 *   SambnisImp.csv dataset used in the original paper
     *   1945-2000
     *   civil war year onset : before/during/after analysis
@@ -39,7 +42,9 @@
     *   1945-2019
     *   intra & inter states conflicts localization (country), start-end year, number of casualties : used to reinforce the analysis of the civil war impact on the metrics, possible interferences
     *   http://www.systemicpeace.org/warlist/warlist.htm
-1. *Methods*
+
+5. *Methods*
+
 *   Processing of the additional datasets
     *   add a TIV column to the Sambanis dataset using the year and country name (obtainable using the COW_code)
     *   add a military expenditures column using the same variables (year & country)
@@ -53,7 +58,8 @@
     *   Are neighbouring countries buying weapons to protect their border from the “civil war”?
     *   How long does it take to establish the weapon influx to the “baseline” level
 *   Visualize everything on a map, observe per region, civil war co-occurrence or series
-1. *Proposed timeline*
+
+6. *Proposed timeline*
 
 <table>
   <tr>
@@ -101,7 +107,7 @@ Start working on the video
 
 
 
-1. *Organization within the team*
+7. *Organization within the team*
 
 <table>
   <tr>
@@ -175,4 +181,4 @@ Start working on the video
 
 
 
-1. *Questions for TAs (optional)*
+8. *Questions for TAs (optional)*
