@@ -1,4 +1,4 @@
-Supplier	Recipient	No. ordered	Weapon designation	Weapon description	Year of order	Year of delivery	No. delivered	Comments
+supplier	recipient	no_ordered	weapon_designation	weapon_description	year_order	year_delivery	no_delivered	comments
 Algeria	 Angola	4	N-262 Fregate	Transport aircraft	1980	1980	4	Second-hand; incl for MP
 Algeria	Nigeria	(2)	Il-28	Bomber aircraft	1967	1968	(2)	Second-hand
 Angola	 Congo	1	Noratlas	Transport aircraft	1979	1979	1	Second-hand; aid
