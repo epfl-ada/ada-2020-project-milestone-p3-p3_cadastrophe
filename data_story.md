@@ -90,11 +90,11 @@ In regions such as ...(Sub-Saharan Africa? Middle East?) where the frequency of 
 ## Clashes Splashes - permeable borders
 
 ### window of 3, thr of 0.1
-- GDP Growth : 25% increase, 61% decrease (over 380)
+- Primary Commodity Exports : 19% increase, 26% decrease (over 380)
 - Military power : 35% increase, 13% decrease (over 375)
+- GDP Growth : 25% increase, 61% decrease (over 380)
 - Infant mortality : 16% increase, 18% decrease (over 380)
 - Life expectancy : 0.5% increase, 6% decrease (over 380)
-- Primary Commodity Exports : 19% increase, 26% decrease (over 380)
 - Weapon import (TIV) : 47% increase, 42% decrease (over 285)
 
 ### window of 5, thr of 0.1
@@ -113,6 +113,15 @@ In regions such as ...(Sub-Saharan Africa? Middle East?) where the frequency of 
 - Life expectancy : 0% increase, 0% decrease (over 380)
 - Weapon import (TIV) : 26% increase, 0% decrease (over 307)
 
+We have a total of 411 countries "neighbour" to a CW onset, from which only 114 are unique (in term of country name) 
+
+Analysis :
+On a window of 5 years, it seems that the neighbouring countries are greatly affected by the CW onset on the economical aspect : more than 25% of the countries next to countries that witnessed a CW avec a decrease in commodity export and more than 61% of them experience a decrease in their GDP Growth. We can make the hypothesis that the neighbouring country was probably a commercial partner and became unable to maintain their exchanges.
+
+On the military side, it seems that the power of armies increase overtime for almost half of the neighbouring countries. Similar trend can be observed in the import of weapons.
+
+As its name indicate, civil wars implies armed conflicts between parties within a country. Consequently, many of the victims are civilians and it's expected to observe an impact of such conflicts on the Infant mortality and Life Expectancy. With a strict threshold, we can see that in 4% of the countries neighbouring a civil war, the infant mortality increased by more than 10% compared to the period before the onset.
+On a window of 6 years around the onset, we can also see that the Life expectancy decrease for 8% of the countries; passing from 54.2 years to 54.6 in average (54.8 to 55 when removing the duplicates)
 
 ## Regional vizualization of civil war onsets
 
