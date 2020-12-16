@@ -89,13 +89,33 @@ In regions such as ...(Sub-Saharan Africa? Middle East?) where the frequency of 
 
 ## Clashes Splashes - permeable borders
 
-TODO :
-- aggregate using geodata
-- computage average/median before and after (using time windows) for each neighbour
-- look for variation, trends...
+### window of 3, thr of 0.1
+- GDP Growth : 25% increase, 61% decrease (over 380)
+- Military power : 35% increase, 13% decrease (over 375)
+- Infant mortality : 16% increase, 18% decrease (over 380)
+- Life expectancy : 0.5% increase, 6% decrease (over 380)
+- Primary Commodity Exports : 19% increase, 26% decrease (over 380)
+- Weapon import (TIV) : 47% increase, 42% decrease (over 285)
+
+### window of 5, thr of 0.1
+- Primary Commodity Exports : 21% increase, 27% decrease (over 380)
+- Military power : 49% increase, 19% decrease (over 376)
+- GDP Growth : 27% increase, 61% decrease (over 380)
+- Infant mortality : 19% increase, 31% decrease (over 380)
+- Life expectancy : 1% increase, 8% decrease (over 380)
+- Weapon import (TIV) : 51% increase, 38% decrease (over 285)
+
+### window of 5, thr of 1
+- Primary Commodity Exports : 3% increase, 0% decrease (over 380)
+- Military power : 13% increase, 0% decrease (over 376)
+- GDP Growth : 15% increase, 31% decrease (over 380)
+- Infant mortality : 4% increase, 0% decrease (over 380)
+- Life expectancy : 0% increase, 0% decrease (over 380)
+- Weapon import (TIV) : 26% increase, 0% decrease (over 307)
+
 
 ## Regional vizualization of civil war onsets
 
 TODO :
-- aggregate information
+- aggregate information (focus south america or middle east)
 - plot magic
