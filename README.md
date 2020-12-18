@@ -117,7 +117,7 @@ Start working on the video
     * trade registry analysis
     * trade registry related plotting
     * trade registry related data story writing
-*Antoine :
+* Antoine :
     * tiv tables, trade registry, military expenses, geodata and systemic peace datasets import (#data crawling)
     * preliminary data analysis
     * data story draft for onset effects on countries and neighbours
