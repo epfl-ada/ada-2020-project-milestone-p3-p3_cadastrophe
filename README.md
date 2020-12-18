@@ -10,11 +10,14 @@
 
 *   What is the impact of the civil war onset on the economic and social metrics of a country and their neighbouring countries?
 *   What about the arm trade surrounding these war onsets?
-*   If the weapon trade presents interessant trends, add it to prediction models and see if the accuracy is improved.
-*   Bonus (if time allows)
-    *   What are the effects of the civil war on a regional level: are there civil wars “hot spots”? Are their effects cumulative if a country shares borders with several countries experiencing civil war simultaneously ? Are some countries able to “permeabilize” their border and minimize the impact of the nearby ongoing conflicts?
+*   What are the effects of the civil war on a regional level: are there civil wars “hot spots”?
+    * Are their effects cumulative if a country shares borders with several countries experiencing civil war simultaneously ?
+    * Are some countries able to “permeabilize” their border and minimize the impact of the nearby ongoing conflicts?
     
-4. *Proposed dataset*
+*Dropped Research Question*
+*   If the weapon trade presents interessant trends, add it to prediction models and see if the accuracy is improved : lack of time, wasn't integrating well to the data story
+    
+4. *Datasets exploited*
 
 *   SambnisImp.csv dataset used in the original paper
     *   1945-2000
@@ -52,7 +55,6 @@
 *   For each civil war onset, analyse metrics for neighbouring countries
     *   See if trends appear before, during or after the civil war onset. for example, how long does it take for a country experiencing civil war to restore its Education/GDP to the level it was at before the onset
     *   How badly is the neighbour country GDP affected?
-    *   eventually perform t-test on these trends
 *   Repeat with the weapons importation:
     *   Are the governments “sensing civil war coming” and preparing for it? 
     *   Are neighbouring countries buying weapons to protect their border from the “civil war”?
@@ -104,81 +106,18 @@ Start working on the video
   </tr>
 </table>
 
+7. *Member contribution*
 
-
-
-7. *Organization within the team*
-
-<table>
-  <tr>
-   <td>
-30 Nov
-   </td>
-   <td>Obtain & merge the datasets, wrangle the data
-<ul>
-
-<li>Antoine : parse and import the Trade-Register dataset
-
-<li>Cindy & Théophile: Select the best features to be analyse and create new ones if needed.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>4 Dec
-   </td>
-   <td>Explore the data under the light of our research questions
-<ul>
-
-<li>treat each civil war, aggregate the data around the neighbouring country (might be common to several wars).
-
-<li>treat the “other” war types, see if there is an overlap or interactions between these events that could “interfere” (to make our analysis more robust). 
-<ul>
- 
-<li>Théophile : Blog backbone
- 
-<li>Cindy & Antoine: Education, GDP, weapon import/export
-</li> 
-</ul>
-</li> 
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>9 Dec
-   </td>
-   <td>Perform statistical tests to show if the civil war onset might explain the fluctuations of the metrics (#p value hacking)
-<ul>
-
-<li>Theophile & Antoine : Perform the statistical tests 
-
-<li>Cindy: Starts writing our story	
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>15 Dec
-   </td>
-   <td>Use visualization tool to plot the map sphere and display values per region, with a widget to change country/metric?
-<ul>
-
-<li>Théophile: Write blog + clean up code 
-
-<li>Antoine & Cindy: plotting the map +  write blog
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>18 Dec
-   </td>
-   <td>Finalize the website + the video
-   </td>
-  </tr>
-</table>
-
-
-
-
-8. *Questions for TAs (optional)*
+* Cindy : 
+    * cowcode datasets import
+    * dynamic plotting functions
+    * data story website creation and maintenance
+    * data story (countries & neighbours) writing
+* Theophile :
+    * trade registry analysis
+    * trade registry related plotting
+    * trade registry related data story writing
+*Antoine :
+    * tiv tables, trade registry, military expenses, geodata and systemic peace datasets import (#data crawling)
+    * preliminary data analysis
+    * data story draft for onset effects on countries and neighbours
