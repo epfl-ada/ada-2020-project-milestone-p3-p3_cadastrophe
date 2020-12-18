@@ -123,6 +123,10 @@ On the military side, it seems that the power of armies increase overtime for al
 As its name indicate, civil wars implies armed conflicts between parties within a country. Consequently, many of the victims are civilians and it's expected to observe an impact of such conflicts on the Infant mortality and Life Expectancy. With a strict threshold, we can see that in 4% of the countries neighbouring a civil war, the infant mortality increased by more than 10% compared to the period before the onset.
 On a window of 6 years around the onset, we can also see that the Life expectancy decrease for 8% of the countries; passing from 54.2 years to 54.6 in average (54.8 to 55 when removing the duplicates)
 
+On a higher level, if we compare the Life Expectancy of countries that never experienced a civil war onset versus those that experienced one in 2000 for example, we notice a 5 years difference (66.78 versus 61.08 years). 
+
+Similar analysis
+
 ## Regional vizualization of civil war onsets
 
 TODO :
